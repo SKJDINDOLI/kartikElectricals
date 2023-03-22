@@ -4,19 +4,15 @@
     padding: 0;
     font-family: 'Tajawal', sans-serif;
 }
-
 h1{
     text-align: center;
     align-items: center;    
     padding: 10px 0;
-    /* color: rgb(32, 32, 153); */
-    /* background-color: rgba(234, 210, 234, .75); */
 }
 hr{
     width: 100px;
     margin: auto;
     border: none;
-    /* border: 3px solid rgb(161, 36, 36); */
     height: 5px;
     background-color:rgb(161, 36, 36) ;
 }
@@ -30,15 +26,12 @@ h2{
     text-align: center;
     width: 300px;
     margin:10px auto;
-    /* background-color: rgba(234, 210, 234, .75); */
 }
-
 .contactBar{
     width:99vw;
     display: flex;
     background:rgba(34,56,78,.25);
     margin: auto;
-    
 }
 .mobileBar{
     width: 100%;
@@ -46,8 +39,7 @@ h2{
     text-align: center;
     animation: changeColor 2s ease-in 0s infinite;
 }
-
-/* .socialMedia{
+.socialMedia{
     display: flex;
     width:50%;
     justify-content: right;
@@ -55,13 +47,12 @@ h2{
 }
 .socialMedia img{
     height: 30px;
-    padding:10px;
+    padding:2px 0;
     cursor: pointer;
-} */
+}
 .navigation{
     width:99vw;
     height: 240px;
-    /* margin:20px auto; */
     display: flex;
     flex-wrap: wrap; 
     text-align: center;
@@ -75,7 +66,6 @@ h2{
     width:29vw;
     text-align: left;
     padding-left: 10px;
-    /* border: 1px solid red; */
 }
 .logo img {
     height: 150px;
@@ -93,12 +83,10 @@ h2{
 .nav nav>ul{
     display: flex;
     flex-wrap: wrap;
-    list-style: none;
-    
+    list-style: none;  
 }
 .nav nav ul a{
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
 .nav nav ul  li{
     width:140px;
@@ -109,7 +97,6 @@ h2{
     background-color:  rgba(91,181,135,.9);
     padding: 10px 0;
     margin: 2px;
-    
     border-radius: 5px;
 }
 .nav nav ul li:hover{
@@ -125,7 +112,6 @@ h2{
     display: none;
     list-style: none;
     flex-direction: column;
-    
 }
 .nav nav ul li .subMenu li{
     margin: 0;
@@ -148,7 +134,6 @@ h2{
     align-items: center;
     width: 300px;
     margin: auto;
-    
 }
 .contact .input{
     width:280px;
@@ -165,6 +150,7 @@ h2{
     outline: none;
     background-color: rgba(0,210,255,.75);
     padding:10px 0;
+    margin-top: 10px;
     color: white;
     cursor: pointer;
 }
@@ -173,26 +159,22 @@ h2{
     border: 2px solid rgba(0,210,255,.75);
     color: rgb(124, 98, 98);
 } 
-
 footer{
     width: 99vw;
     margin: 20px auto 0 auto;
     background-image: url("img/tower.jpg");
-
 }
 footer >div{
     display: flex;
     flex-wrap: wrap;
-    background: rgba(0,0,255,.75);
-    
+    background: rgba(0,0,255,.75); 
 }
 footer div>div{ 
     width:30%;
     margin: auto;
     min-width: 200px;
     padding-left:20px;
-    text-align: center;
-    
+    text-align: center; 
 }
 footer div address{
     color: aliceblue;
@@ -215,11 +197,9 @@ footer div ul li{
     color:aliceblue;
     border-radius: 3px;
     background-color: rgba(255,0,0,.25);
-   
 }
 footer div ul li:hover{
     background-color: rgba(0,0,0,1);
-    
 }
 footer .copy{
     font-size: large;
@@ -234,7 +214,6 @@ footer .copy{
     width:99vw;
     margin: auto;
 }
-
 .customers .customersDisplay{
     width: 80vw;
     display: flex;
@@ -277,7 +256,6 @@ footer .copy{
      text-align: center;
     align-items: center;
     justify-content: center; 
-    
 }
 .pagination{
     border:1px solid gray;
@@ -287,7 +265,6 @@ footer .copy{
     flex-direction: column;
     align-items: center;
     text-align: center;
-
 }
 #customerCard1{
     display: block;
@@ -318,21 +295,17 @@ footer .copy{
     margin:0 5px;
 }
 .btn:hover{
-    
     background-color:  white;
     color: crimson;
     border-color: crimson;
-    
 }
 .btnActive{
     transition:background-color .5s ease-in;
     background-color:  white;
     color: crimson;
     border-color: crimson;
-    
 }
 .customers .customersReview .customerCard{
-    
     width: 300px;
     box-shadow: 5px 5px 10px rgba(0,0,255,.50);
     text-align: center; 
@@ -341,15 +314,10 @@ footer .copy{
     margin:10px auto;
     position:relative; 
     padding:10px;
-    
-
 }
-
-
 .customerCard .customerImg{
     width: 100px;
     height:100px;
-    /* border:1px solid green; */
     border-radius: 50px;
     margin: auto;
     overflow: hidden;
@@ -357,29 +325,21 @@ footer .copy{
 .customerCard .customerImg img{
     width: 100px;
     height:110px;
-    
-    /* border:1px solid green;
-    border-radius: 50px;
-    margin: auto;   */
 }
 .customerCard .customerName{
     width: 250px;
     padding-top:5px;
-    
     margin: auto;
     font-size: 1.5rem;
 }
 .customerCard .customerDes{
     width: 250px;
     padding-top:5px;
-    
     margin: auto;
-    
 }
 .customerCard .customerComp{
     width: 250px;
     padding-top:5px;
-    
     margin: auto;
 }
 .customerCard .review{
@@ -398,19 +358,14 @@ footer .copy{
  .ser_subMenu .Container{
     width:80vw;
     margin: auto;
-    
-    
  }
  .ser_subMenu .Container table{
     text-align: left;
     width: 300px;
-    /* border: 1px solid red; */
     margin:10px auto;
  }
  .ser_subMenu .Container table tr th, td{
     padding: 10px ;
-    /* border: 1px solid red; */
-    /* text-align: center; */
  }
  .contFix{
     margin-right: 20px;
@@ -426,7 +381,6 @@ footer .copy{
     text-align: center;
     justify-content: center;
     align-items: center;
-    
  }
  .contFix  .contIcon{
     display: flex;
@@ -440,8 +394,6 @@ footer .copy{
     box-shadow: 5px 5px 8px rgba(0,0,255,.50);
     cursor: pointer;
     background-color: aqua;
-    
-    
  }
  .contFix  .contIcon:hover{
     border: 1px solid blueviolet; 
@@ -494,7 +446,6 @@ footer .copy{
     font-size: 2rem;
  }
  .home .hContact .btn{
-    
     padding: 10px;
     background: #9b51e0;
     color: white;
@@ -503,7 +454,6 @@ footer .copy{
     border: none;
     outline: none;
     border-radius: 5px;
-
  }
  .home .hContact .btn:hover{
     background: white;
@@ -520,13 +470,11 @@ footer .copy{
 @keyframes changeWidth {
     0%{
         width: 50px;
-        height: 50px;
-        
+        height: 50px; 
     }
     100%{
         width: 60px;
-        height: 60px;
-        
+        height: 60px;   
     }
 }
 @media (max-width: 1040px) {
@@ -560,7 +508,6 @@ footer .copy{
         flex-direction: column;
         margin: auto;
      }
-    
 }
 @media (max-width: 740px){
     .navigation{
@@ -600,20 +547,14 @@ footer .copy{
         margin: auto;
     }
     .homeMain >p> b{
-        font-size: 3rem;
-       
+        font-size: 3rem; 
      }
-     
      .home .hContent{
         width: 95%;;
         padding:0 2.5%;
-
      }
      .home .hContact{
         width: 95%;
         padding: 10px 2.5%;
-       
-     }
-     
-    
+     } 
 }
